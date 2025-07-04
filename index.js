@@ -1,7 +1,10 @@
 const express = require('express');
 const app = express();
+const userRoutes = require('./routes/userRoutes');
  const mongoose = require('mongoose');
  const dotenv = require('dotenv');
+
+app.use('/api', userRoutes);
 
  //importar rutas
 const authRoute = require('./routes/auth');
