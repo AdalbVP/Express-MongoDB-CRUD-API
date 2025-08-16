@@ -24,15 +24,15 @@ The goal of this project was to learn how to connect a Node.js server to a datab
 ---
 
 ## Installation & Setup
-1. Clone the repository
- ``bash
-   git clone https://github.com/AdalbVP/PruebaBD.git
-   cd PruebaDB
-2. Install dependencies
-   npm install
-3. Create a .env file and set your MongoDB connection string:
+1. Clone the repository:
+ bash
+git clone https://github.com/AdalbVP/PruebaBD.git
+cd PruebaBD
+3. Install dependencies
+ npm install
+4. Create a .env file and set your MongoDB connection string:
   MONGO_URI = your_mongodb_connection_string
-4. Run the server
+5. Run the server
   The server will run on http://localhost:3000
 
 ---
