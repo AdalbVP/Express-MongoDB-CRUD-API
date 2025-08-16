@@ -24,7 +24,7 @@ The goal of this project was to learn how to connect a Node.js server to a datab
 ---
 
 ## Installation & Setup
-1. Clone the repository:
+1. Clone the repository:  
  bash  
 git clone https://github.com/AdalbVP/Express-MongoDB-CRUD-API.git  
 cd Express-MongoDB-CRUD-API  
