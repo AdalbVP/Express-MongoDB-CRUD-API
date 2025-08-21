@@ -8,6 +8,8 @@ const postsRoute = require('./routes/posts');
 
 app.use('/api', userRoutes);
 
+app.use('/api', userRoutes);
+
  //importar rutas
 const authRoute = require('./routes/auth');
 
